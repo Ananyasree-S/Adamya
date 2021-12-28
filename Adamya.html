@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADAMYA</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src="../adamya/pic/l1.png">
+            </div>
+            <ul id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <li class="active"> <a href="#">HOME</a> </li>
+                <li> <a href="yoga.html">YOGA</a> </li>
+                <li> <a href="musicnew.html">MUSIC</a> </li>
+                <li> <a href="ayush.html">AYUSH</a> </li>
+                <li> <a href="about.html">ABOUT</a> </li>
+            </ul>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+        <div class="title">
+            <h1>ADAMYA</h1>
+            <p>
+                Adamya is a mental health care site developed for people who deal with loneliness , stress , anxiety and such issues. 
+                It is a place where you can discover calming exercises , yoga , meditation and instrumental musics all in one place.<br>
+                 Since we all have been staying indoors for more than a year because of the pandemic,
+               it becomes crucial for all of us to maintain proper mental health along with physical health.
+               Keeping up with school and work during such a stressful time can be very exhausting. 
+               Thus we have created this page that can help you in finding calm in this chaos.
+              </p>
+        </div>
+    </header>
+
+<!----------js for toggle------->
+  <script>
+      var navLinks = document.getElementById("navlinks")
+
+      function showMenu(){
+          navLinks.style.left = '0';
+      }
+      function hideMenu(){
+          navLinks.style.left = '-200px';
+      }
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- APlayer CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css"/>
+     <link rel="stylesheet" href="css/newmusic.css">
+    
+    </div>
+	<ul id="navlinks">
+		<i class="fa fa-times" onclick="hideMenu()"></i>
+		<li > <a href="Adamya.html">HOME</a> </li>
+		<li> <a href="yoga.html">YOGA</a> </li>
+		<li class="active"> <a href="musicnew.html">MUSIC</a> </li>
+		<li> <a href="ayush.html">AYUSH</a> </li>
+		<li> <a href="about.html">ABOUT</a> </li>
+	</ul>
+	<i class="fa fa-bars" onclick="showMenu()"></i>
+</div>
+
+    <title>MUSIC</title>
+	 <!---width:100% in img is changed to 250px .Revert back in apt case . Style externally linked if anything goes bad REVERT-->
+	<!------ <style>
+    	body{
+    		background-color: white;
+    		font-family: Open sans;
+			background-image: url(../adamya/pic/bg1.jpeg);
+    	}
+    	img{
+    		width: 250px;         
+    		min-height: 250px;
+    	}
+		h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+h1::after{
+    content: '';
+    background:rgba(19, 18, 18, 0.7);
+    display: block;
+    height: 3px;
+    width: 270px;
+    margin: 5px auto 5px;
+}
+
+h5{
+	text-align: center;
+}
+
+
+    	.main{
+    		padding: 40px 0;
+    	}
+    	.col-md-3{
+    		margin-bottom: 40px;
+    	}
+    	.album-poster{
+    		position: relative;
+    		display:block;
+    		border-radius: 7px;
+    		overflow: hidden;
+    		box-shadow: 0 15px 35px #3d2173a1;
+    		transition: all ease 0.4s;
+			height: fit-content;
+			width:fit-content;
+    	}
+    	.album-poster:hover{
+    		box-shadow: none;
+    		transform: scale(0.98) translateY(5px);
+    	}
+    	
+    	p{
+    		font-size: 15px;
+            color: white;
+    	}
+    	h4{
+    		font-size: 16px;
+    		text-transform: uppercase;
+    		margin-top: 15px;
+    		font-weight: 700;
+            color: white;
+    	}
+		
+
+		/*default is hide music player*/
+		#aplayer{
+			position: fixed;
+			bottom: -100%;
+			left: 0;
+			width: 100%;
+			margin: 0;
+			box-shadow: 0 -2px 2px #dadada;
+			background-color: #fff;
+			transition: all ease 0.5s;
+		}
+		#aplayer.showPlayer{
+			bottom: 0;
+		}
+
+		
+		/*MUSIC PLAYER CUSTOMIZING STYLE*/
+		span{
+			color: #000 !important;
+			font-size: 16px;
+		}
+		.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded{
+			background: #e0e0e0;
+    		height: 4px;
+		}
+		.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played{
+			height: 4px;
+			background-color: #2196F3 !important;
+		}
+		.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played .aplayer-thumb{
+			background-color: #2196F3 !important;
+		}
+
+		.aplayer .aplayer-icon{
+			width: 20px;
+			height: 20px;
+		}
+		.aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon path {
+		    fill: #000;
+		}
+		.aplayer .aplayer-info .aplayer-music{
+			margin-bottom: 5px;
+		}
+
+
+    </style>-->
+ 	</head>
+	<body>
+		<h1>Instrumental Music</h1>
+        <h5>To calm your mind</h5>
+
+<div class="main">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<a href="javascript:void();" class="album-poster" data-switch="0">
+					<img src="../adamya/pic/ma.jpeg" alt="" width="200px" height="250px">
+				</a>
+				<h4>Invisible Beauty</h4>
+				<p>Aakash Gandhi</p>
+			</div>
+			<div class="col-md-3">
+				<a href="#" class="album-poster" data-switch="1">
+					<img src="../adamya/pic/md.jpeg" alt="" width="200px" height="250px">
+				</a>
+				<h4> Just Stay</h4>
+				<p>Mauve</p>
+			</div>
+			<div class="col-md-3">
+				<a href="#" class="album-poster" data-switch="2">
+					<img src="../adamya/pic/mg.jpeg" alt="" width="200px" height="250px">
+				</a>
+				<h4>Liquid Time</h4>
+                <p>AAkash Gandhi</p>
+			</div>
+			<div class="col-md-3">
+				<a href="#" class="album-poster" data-switch="3">
+					<img src="../adamya/pic/mf.jpeg" alt="" width="200px" height="250px">
+				</a>
+				<h4>Adventure</h4>
+				<p>Anonymous</p>
+			</div>
+		</div>
+
+        <div class="row">
+			<div class="col-md-3">
+				<a href="#" class="album-poster" data-switch="4">
+					<img src="../adamya/pic/mc.jpeg" alt="" width="200px" height="250px">
+				</a>
+				<h4>Sunyata</h4>
+				<p>Siddhartha Corsus</p>
+			</div>
+			<div class="col-md-3">
+				<a href="#" class="album-poster" data-switch="5">
+					<img src="../adamya/pic/me.jpeg" alt="" width="200px" height="250px">	
+			   </a>
+				<h4>Into oblivion</h4>
+				<p>Darren Curtis</p>
+			</div>
+			<div class="col-md-3">
+				<a href="#" class="album-poster" data-switch="6">
+					<img src="../adamya/pic/mb.jpeg" alt="" width="200px" height="250px">	
+			   </a>
+				<h4>Art of Silence</h4>
+				<p>Uniq</p>
+			</div>
+			<div class="col-md-3">
+				<a href="#" class="album-poster" data-switch="7">
+					<img src="../adamya/pic/mj.jpeg" alt="" width="200px" height="250px">
+				</a>
+				<h4>Anonymous</h4>
+				<p>Anonymous</p>
+			</div>
+			
+		</div>	
+   </div>
+</div>
+
+	<div id="aplayer"></div>
+
+	<!-- Jquery Link -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<!-- Bootstrap Link -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<!-- APlayer Jquery link -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script>	
+
+	<script>
+
+
+		// NOW I CLICK album-poster TO GET CURRENT SONG ID
+		$(".album-poster").on('click', function(e){
+			var dataSwitchId = $(this).attr('data-switch');
+			//console.log(dataSwitchId);
+
+			// and now i use aplayer switch function see
+			ap.list.switch(dataSwitchId); //this is static id but i use dynamic 
+
+			// aplayer play function
+			// when i click any song to play
+			ap.play();
+
+			// click to slideUp player see
+			$("#aplayer").addClass('showPlayer');
+		});
+
+		const ap = new APlayer({
+		    container: document.getElementById('aplayer'),
+		    listFolded: true,
+		    audio: [
+		    {
+		        name: 'Invisible Beauty',
+		        artist: 'Aakash Gupta',
+		        url: 'music/invisible_beauty.mp3',
+		        cover:'pic/ma.jpeg'
+		    },
+			{
+		        name: 'Just Stay',  
+		        artist: 'Mauve', 
+		        url: 'music/just_stay.mp3',
+				cover:'pic/md.jpeg' 
+		    },
+			{
+				name: 'Liquid Time',
+				artist: 'Aakash Gupta',
+				url: 'music/liquid_time.mp3',
+				cover:'pic/mg.jpeg'
+			},
+			{
+				name: 'Adventure',
+				artist: 'Anonymous',
+				url: 'music/Adventure.mp3',
+				cover:'pic/mf.jpeg'
+            },
+			{
+				name: 'Sunyata',
+				artist: 'Siddhartha Corsus',
+				url: 'music/Sunyata.mp3',
+				cover:'pic/mc.jpeg'
+            },
+			{
+				name: 'Into Oblivion',
+				artist: 'Darren Curtis',
+				url: 'music/Into_Oblivion.mp3',
+				cover:'pic/me.jpeg'
+            },
+			{
+				name: 'Art of Silence',
+				artist: 'Uniq',
+				url: 'music/ArtOfSilence.mp3',
+				cover:'pic/mb.jpeg'
+            },
+			{
+				name: 'Anonymous',
+				artist: 'Anonymous',
+				url: 'music/maxmusic.mp3',
+				cover:'pic/mj.jpeg'
+            },
+
+		    ]
+		});
+	</script>
+
+	</body>
+</html>
